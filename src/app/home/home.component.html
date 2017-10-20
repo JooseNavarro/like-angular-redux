@@ -1,0 +1,51 @@
+    <br>
+    <div class="ui">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div class="center aligned column">
+                    <h1 class="ui huge">Like Angular & Redux </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="ui container one column centered grid">
+        <div class="ui row">
+            <div class="ui card ">
+
+                <div class="image">
+                    <img class="ui image" src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                </div>
+                <div class="content">
+                    <div class="header">Jose Navarro</div>
+                    <div class="meta">
+                        <a>Developer</a>
+                    </div>
+                    <div class="description">
+                         JavaScript Developer, nodejs, vuejs, reactjs & react native.
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span class="right floated">
+                        Joined in 2013
+                    </span>
+
+                    <span class="left floated">
+                        <i class="heart icon red" (click)="increment()"></i>
+                        {{ counter | async }} Like
+                    </span>
+                </div>
+
+            </div>
+            
+        </div>
+        <button class="ui  red button" (click)="increment()">
+            <i class="heart icon"></i> Like
+        </button>
+
+        <button class="ui basic blue button" (click)="decrement()">
+            <i class="thumbs down icon"></i> Sad
+        </button>
+
+    </div>
+
